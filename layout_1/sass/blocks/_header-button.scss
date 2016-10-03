@@ -1,0 +1,15 @@
+&--button {
+  background-color: #00a5ff;
+  display: inline-block;
+  padding: 18px 57px;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19pt;
+  margin-top: 90px;
+}
+
+&--button:hover {
+  background-color: #00baff;
+  color: #e2e3e5
+}

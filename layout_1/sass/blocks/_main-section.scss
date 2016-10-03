@@ -1,0 +1,156 @@
+.main-section {
+  @import "sections_title";
+
+  .services {
+    margin: 70px 0 70px 0;
+    &__service {
+      text-align: center;
+
+      &-icon {
+        max-height: 33px;
+      }
+
+      &-title {
+        color: #3a3f4b;
+        text-transform: uppercase;
+        font-size: 12pt;
+        margin-bottom: 0;
+      }
+
+      &-border {
+        background-color: #888888;
+        height: 2px;
+        width: 41px;
+        margin: 10px auto 0 auto;
+      }
+
+      &-desc {
+        color: #999999;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 9pt;
+      }
+    }
+  }
+
+  .portfolio {
+    @import "main-button";
+
+    text-align: center;
+    margin: 65px 0 65px 0;
+
+    &__menu {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      &__item {
+        display: inline-block;
+        padding-right: 50px;
+
+        &-link {
+          color: #999999;
+          text-transform: uppercase;
+
+        }
+
+        &-link.active, &-link:hover {
+          color: #00a5ff;
+          padding-bottom: 5px;
+          border-bottom: 2px solid #00a5ff;
+          transition: 0.20s ease-out 0.15s;
+        }
+      }
+    }
+
+    &__example {
+      box-shadow: 0px 1px 3px #999999;
+      margin-top: 40px;
+
+      &-img {
+        width: 100%;
+      }
+
+      &-title {
+        color: #999999;
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        font-size: 11pt;
+        padding: 5px 0 30px 30px;
+      }
+    }
+  }
+
+  .brands {
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 70px;
+
+    &__brand {
+      display: block;
+      line-height: 100px;
+
+      &-item {
+        vertical-align: middle;
+        filter: opacity(50%);
+      }
+
+      &-item:hover, &-item.active{
+        filter: none;
+      }
+    }
+  }
+
+  .recalls {
+    margin-top: 60px;
+
+    &__item {
+      display: block;
+      line-height: 133px;
+
+      &.left {
+        text-align: right;
+      }
+
+      &.center {
+        text-align: center;
+      }
+
+      &.right {
+        text-align: left;
+      }
+
+      &-img {
+        border-radius: 50%;
+        max-height: 105px;
+        filter: invert(25%) brightness(135%);
+
+        &.active {
+          max-height: 135px;
+          filter: none;
+        }
+      }
+    }
+
+    &__info {
+      width: 575px;
+      margin: 0 auto;
+      text-align: center;
+      color: #3a3f4b;
+
+      &-recall {
+        font-family: 'Lora', serif;
+        font-size: 17pt;
+        font-weight: inherit;
+      }
+
+      &-contact {
+        font-family: 'Lora', serif;
+        font-size: 12pt;
+
+        span {
+          text-decoration: underline ;
+        }
+      }
+    }
+  }
+}
