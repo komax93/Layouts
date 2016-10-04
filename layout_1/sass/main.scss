@@ -1,5 +1,5 @@
 body{
-	background-color: #d3d3da;
+	background-color: #d3d3da !important;
 	margin: 0;
 	padding: 0;
 }
@@ -14,3 +14,4 @@ body{
 @import "blocks/_header";
 @import "blocks/_main-section";
 @import "blocks/_contacts";
+@import "blocks/_footer";
