@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
-                        <a href="#"><img src="images/header-logo.png" alt="logo"></a>
+                        <a class="header__logo" href="#"><img class="header__logo-img" src="images/header-logo.png" alt="logo"></a>
                     </div>
                     <div class="col-md-10">
                         <ul class="header-menu">
@@ -25,13 +25,13 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="container header-info">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="header-info__title">Velox One Page Template</h2>
-                        <p class="header-info__desc">Clean, Responsive, customizable one page template</p>
-                        <a href="#" class="header-info--button">Get started now</a>
+                <div class="header__info">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="header__info-title">Velox One Page Template</h2>
+                            <p class="header__info-desc">Clean, Responsive, customizable one page template</p>
+                            <a href="#" class="header__info--button">Get started now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container services">
+                <div class="services">
                     <div class="row">
                         <div class="col-md-3">
                             <div class="services__service">
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container portfolio">
+                <div class="portfolio">
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="portfolio__menu">
@@ -160,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container brands">
+                <div class="brands">
                     <div class="row">
                         <div class="col-md-2">
                             <a class="brands__brand" href="#">
@@ -202,20 +202,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="container recalls">
+                <div class="recalls">
                     <div class="row">
                         <div class="col-md-5">
                             <div class="recalls__item left">
                                 <img class="recalls__item-img" src="./images/recalls/recall-1.png" alt="img">
                             </div>
                         </div>
-
                         <div class="col-md-2">
                             <div class="recalls__item center">
                                 <img class="recalls__item-img active" src="./images/recalls/recall-2.png" alt="img">
                             </div>
                         </div>
-
                         <div class="col-md-5">
                             <div class="recalls__item right">
                                 <img class="recalls__item-img" src="./images/recalls/recall-3.png" alt="img">
@@ -233,82 +231,76 @@
                 </div>
             </div>
         </section>
-
         <section class="contacts">
             <div class="container">
                 <div class="navigation">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <h3 class="navigation__name">Contact Us</h3>
-                            </div>
-                            <div class="col-md-10">
-                                <ul class="navigation__menu">
-                                    <li class="navigation__menu__item">
-                                        <a href="#" class="navigation__menu__item-link">Home</a>
-                                    </li>
-                                    <li class="navigation__menu__item">
-                                        <a href="#" class="navigation__menu__item-link">About</a>
-                                    </li>
-                                    <li class="navigation__menu__item">
-                                        <a href="#" class="navigation__menu__item-link">Services</a>
-                                    </li>
-                                    <li class="navigation__menu__item">
-                                        <a href="#" class="navigation__menu__item-link">Blog</a>
-                                    </li>
-                                    <li class="navigation__menu__item">
-                                        <a href="#" class="navigation__menu__item-link">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h3 class="navigation__name">Contact Us</h3>
+                        </div>
+                        <div class="col-md-10">
+                            <ul class="navigation__menu">
+                                <li class="navigation__menu__item">
+                                    <a href="#" class="navigation__menu__item-link">Home</a>
+                                </li>
+                                <li class="navigation__menu__item">
+                                    <a href="#" class="navigation__menu__item-link">About</a>
+                                </li>
+                                <li class="navigation__menu__item">
+                                    <a href="#" class="navigation__menu__item-link">Services</a>
+                                </li>
+                                <li class="navigation__menu__item">
+                                    <a href="#" class="navigation__menu__item-link">Blog</a>
+                                </li>
+                                <li class="navigation__menu__item">
+                                    <a href="#" class="navigation__menu__item-link">Contact Us</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <form class="form">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form__contact">
-                                    <h4 class="form__contact-item">Our Address</h4>
-                                    <p class="form__contact-info">House No,11132, Sector 31, Gurgaon <br> 122001  India</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form__input">
-                                    <h4 class="form__input-item">Name:</h4>
-                                    <input class="form__input-field" type="text" name="name">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form__input">
-                                    <h4 class="form__input-item">Subject:</h4>
-                                    <input class="form__input-field" type="text" name="subject">
-                                </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form__contact">
+                                <h4 class="form__contact-item">Our Address</h4>
+                                <p class="form__contact-info">House No,11132, Sector 31, Gurgaon <br> 122001  India</p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form__contact">
-                                    <h4 class="form__contact-item">Call us</h4>
-                                    <p class="form__contact-info">+ 91-9876543210 <br> + 01262219018</p>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="form__input">
-                                    <h4 class="form__input-item">Your Message:</h4>
-                                    <input class="form__input-field" type="text" name="subject">
-                                </div>
+                        <div class="col-md-4">
+                            <div class="form__input">
+                                <label for="name" class="form__input-item">Name:</label>
+                                <input class="form__input-field" id="name" type="text" name="name">
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h4 class="form__contact-item">Email us</h4>
-                                <p class="form__contact-info">contactus@email.com</p>
+                        <div class="col-md-4">
+                            <div class="form__input">
+                                <label for="subject" class="form__input-item">Subject:</label>
+                                <input class="form__input-field" id="subject" type="text" name="subject">
                             </div>
-
-                            <div class="col-md-8">
-                                <a href="#" class="form--button">Send message</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form__contact">
+                                <h4 class="form__contact-item">Call us</h4>
+                                <p class="form__contact-info">+ 91-9876543210 <br> + 01262219018</p>
                             </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="form__input">
+                                <label for="message" class="form__input-item">Your Message:</label>
+                                <input class="form__input-field" id="message" type="text" name="message">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="form__contact-item">Email us</h4>
+                            <p class="form__contact-info">contactus@email.com</p>
+                        </div>
+                        <div class="col-md-8">
+                            <a href="#" class="form--button">Send message</a>
                         </div>
                     </div>
                 </form>
@@ -345,14 +337,12 @@
                         </ul>
                     </div>
                 </div>
-
                 <div class="footer__up">
                     <div class="footer__up-link"></div>
                 </div>
             </div>
         </footer>
     </div>
-
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
