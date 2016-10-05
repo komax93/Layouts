@@ -65,9 +65,11 @@
 
     &__input {
       &-item {
+        display: block;
         font-family: 'Open Sans', sans-serif;
         font-size: 14pt;
         margin-top: 7px;
+        margin-bottom: 20px;
       }
 
       &-field {
